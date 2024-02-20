@@ -7,8 +7,8 @@ $(function() {
       let userName = $("#userName").val();
 
       let thisString = "Hello, " + (userName || "Undefined") + "!";
-      thisString += "<br><h3>'this is just messy'</h3>";
-      thisString += ` here is a string and guess what else I want to do? I want to '<strong>single quotes</strong>' and "<em>double quotes</em>"`;
+      thisString += "<br><h3>'This is my fun Game'</h3>";
+      thisString += ` Your have (  ) letter `;
 
       $('#output').html(thisString);
 
