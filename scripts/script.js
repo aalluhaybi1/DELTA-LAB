@@ -11,7 +11,7 @@ $(function() {
 
     // Counting the number of letters in userName
     let letterCount = (userName || "").replace(/[^a-zA-Z]/g, "").length;
-    thisString += ` Your have (${letterCount}) letter `;
+    thisString += ` Your Name have (${letterCount}) letter `;
 
     $('#output').html(thisString);
 
